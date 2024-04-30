@@ -1,0 +1,435 @@
+
+
+*
+{
+ padding: 0;
+     margin: 0;
+     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+   Helvetica Neue, sans-serif;
+   box-sizing: border-box;
+}
+
+
+/*section one css*/
+
+ .Main_Sec_1{
+     display: flex;
+     width: 100%;
+ }
+ .Leftimg_1{
+     width: 43%;
+ }
+ .Leftimg_1 img{
+     width: 100%;   
+     height: 100%;
+ }
+ .middle_txt{
+     width: 20%;
+     background-color: #FCC133;
+     display: flex;
+    align-items: center;
+ }
+ .middle_txt_cont{
+     padding: 79px;
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 51px;
+text-align: center;
+ }
+
+ @media screen and (max-width: 480px) {
+     .Main_Sec_1{
+    display: block;
+ }  
+ .Leftimg_1{
+     width: 100%;
+ }
+ .middle_txt_cont {
+    padding: 51px 100px 49px 100px;
+     font-size: 1.6rem;}
+     .middle_txt{
+     width: 100%;
+ }
+ }
+
+
+ /*section two css*/
+
+ .sec_sect{
+    background-color: #292930;
+}
+.sec_mainSect{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.sec_mainSectTxtimg{
+    width: 60%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+.sec_mainSect_txt{
+    width: 40%;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+padding: 18px 94px 18px 36px;
+font-size: 2rem;
+color: white;
+}
+.pexl_img{
+    width: 220px;
+    height: 350px;
+}
+.pexltxt{
+background-color: #FCC133;
+width: 400px;
+padding: 100px 35px;
+font-size: 20px;
+line-height: 30px;
+font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+.sec_mainSect{
+display: block;
+}
+.sec_mainSectTxtimg{
+display: block;
+text-align: center;
+width: 100%;
+}
+.pexltxt{
+width: 100%;
+padding: 25px;
+margin-top: 25px;
+font-size: 16px;
+}
+.sec_mainSect_txt{text-align: center;
+padding: 40px 0px;
+font-size: 18px;
+width: 100%;
+display: block;
+}
+.pexl_img {
+width: 190px;
+height: 290px;}}
+
+
+ /*section three css*/
+
+ .thrd_sec{
+    background-image: url(./img/pexelsphoto1639563.jpeg);
+    background-position: 50% 50%;
+}
+.thrd_SecMain1stbx{
+    display:flex;
+    padding: 50px;
+    color: white;
+    align-items: center;
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+    border: 10px solid #FCC133;
+    }
+    .thrd_SecMain2stbx{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #FCC133;
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+  }
+  .thrd_SecMain{   
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       width: 90%;
+       margin: 0 auto;
+       padding: 65px 0px;
+      }
+      
+      .thrd_SecMain1stbx h2{
+        font-size: 25px;
+        margin: 20px 0px;
+      }
+     .thrd_SecMain1stbx p{   
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 25px;
+         text-align: center;
+         margin-bottom: 11px;
+      }
+      .thrd_SecMain1stbx a{
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+        border-bottom: 2px solid;
+      }
+      .thrd_SecMain2stbx h2{
+        font-size: 25px;
+        margin: 20px 0px;
+      }
+      .thrd_SecMain2stbx p{   
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 25px;
+         text-align: center;
+         margin-bottom: 11px;
+      }
+      .thrd_SecMain2stbx a{
+        color: black;
+        font-size: 19px;
+        text-decoration: none;
+        border-bottom: 2px solid black;
+      }
+      @media screen and (max-width: 480px){
+        .thrd_SecMain{
+            display: block;
+        }
+        .thrd_SecMain1stbx{
+            width: 100%;
+            height: 100%;
+        }
+        .thrd_SecMain2stbx{
+            width: 100%;
+            height: 100%;
+        }
+       
+      }
+
+
+      /* minor sec css*/
+
+      .minor_mainsecCont{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+        padding:40px 0px;
+     }
+     .minor_mainse{
+        color: #ffffff;
+        background-color: #292930;
+     }
+     .minor_mainsecleft h2{
+        font-size: 2.3rem;
+     }
+     .minor_mainsecleft p{
+        font-size: 19px;
+        margin: 20px 0px;
+        line-height: 24px;
+        font-weight: 900;
+        
+     }
+     .minor_mainsecleft{
+        width:50%;
+     }
+     .minormainsecright{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+     }
+     #fa_logo{
+        font-size: 20px;
+     }
+     .minor_mainsecleftLogo{
+        display: flex;
+        gap: 20px;
+     }
+     .foodmenu{
+        display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;
+     }
+     .foodmenu span{
+     font-weight: bolder;
+     font-size: 20px;}
+     @media screen and (max-width: 480px){
+        .minor_mainsecCont{
+            display: block;
+        }
+        .minor_mainsecleft {
+            width: 100%;
+text-align: center;}
+  .minor_mainsecleft h2{
+    font-size: 1.rem;
+  }
+  .minor_mainsecleft p{
+    font-size: 15px;
+  }
+  .minor_mainsecleftLogo {
+gap: 30px;
+justify-content: center;
+     }
+     .minormainsecright {
+        display: block;
+        width: 100%;
+margin: 40px 0px;}
+.foodmenu{
+    gap: 8px;
+    margin: 24px 0px;
+}
+ .foodmenu span{
+    font-size: 14px;
+ }}
+
+ /*fifth section css*/
+
+
+ .fifth_sec {
+    background-image: url(./img/pexelsphoto842142.jpeg);
+    background-size: 100% 100%;}
+    .fifth_sec_main{
+        min-height: 645px;
+        position: relative;
+        width: 90%;
+    margin: 0 auto;
+    }
+
+   .fifth_sec_cont{
+              width: 50%;
+            position: absolute;
+           bottom: 70px;
+           right: 0;
+          color: white;}
+
+    .fifth_sec_cont h1{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+     
+    .fifth_sec_cont p{
+        font-size: 16px;    
+    }
+
+     /*six section css*/
+     .leftimgbx_secsix{
+         background-image: url(./img/pexelsphoto2641886.jpeg);
+         min-height: 600px;
+         background-size: 100%;
+        width: 50%;
+     }
+     .six_mainSec{
+         width: 100%;
+         margin: 0 auto;
+         display: flex;  
+     }
+     .Rightimgbx_secsix{
+        width: 50%;
+        background: #292930;
+        color: white;
+        text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ padding: 0px 40px;
+       }
+       .Rightimgbx_secsix h1{
+         font-size: 2.6rem;
+         font-weight: bold;
+       }
+       .Rightimgbx_secsix p{
+         font-size: 1rem;
+ margin: 30px 0px;
+ padding: 0px 40px;
+ font-weight: bold;
+ line-height: 29px;
+       }
+       .Rightimgbx_secsix h2{
+         font-size: 1.6rem;
+       }
+     
+     .bottmdv_cont{ 
+           display: flex;
+           width: 90%;
+          margin: 0 auto;}
+     
+     .bottmdv_rght{
+         display: flex;
+         align-items: center;
+         gap: 20px;
+     }
+     .bottmdv_rghtimg img{
+         width: 250px;
+         height: 265px;
+     }
+     .sic_Sec{
+         background: #292930;
+     }
+     .bottmdv_rghttxt{
+         height: 100%;
+         background:#FCC133;
+         padding: 10px 80px;
+         display: flex;
+         flex-direction: column;
+        justify-content: center;
+     }
+     .bottmdv_rghtimg{
+         margin: 24px 0px;
+     }
+     
+        .bottmdv_lft{display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 40%;
+ padding: 75px;
+ color: white;
+     }
+     .bottmdv_lft p{
+         margin: 40px 0px;
+     }
+     @media screen and (max-width: 480px){
+         .bottmdv_rght{
+             display: block;
+             text-align: center;
+         }
+         .bottmdv_cont{
+             display: block;
+         }
+         .six_mainSec{
+             display: block;
+         }
+         .leftimgbx_secsix {
+           min-height: 400px;
+          width: 100%;
+     }
+     .fifth_sec_cont {
+ width: 100%;
+ position: absolute;
+ bottom: 0px;
+ right: 0;
+ color: white;
+ text-align: center;
+ }
+ .fifth_sec_main {
+ min-height: 450px
+}
+
+.fifth_sec {
+ background-position: 65% 47%;
+ background-size: auto;
+}
+.fifth_sec p {
+ padding-bottom: 28px;}
+
+ .Rightimgbx_secsix {
+  width: 100%;
+  padding: 20px 0px; 
+ }
+ .bottmdv_lft {
+     width: 100%;
+text-align: center;
+ color: white;
+ padding: 0px 66px;
+ text-align: center;}
+ .bottmdv_rghtimg img {
+ width: 200px;
+ height: 200px;}
+}
+ 
